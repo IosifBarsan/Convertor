@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: linear-gradient(to right bottom, #82AAE3, #3962db, #2960eb, #2253b4, #173a85, #102e6e, #205bda, #2a5cda, #1b48e9, #2a3fdd, #3c3ce4);
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  
+  h1{
+    text-align: center;
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: rgb(211, 247, 10);
+  }
+
+  h4{
+    text-align: center;
+    justify-items: center;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(211, 247, 10);
+
+  }
+
+  input{
+    height: 30px;
+    border-color: #1045b3;
+
+  }
+
+  select{
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: #0e45b3;
+    justify-content: space-between;
+
+    
+  }
+
+  .rate{
+    color: rgb(211, 247, 10);
+    font-size: 20px;
+    padding: 0 10px;
+    margin-top: 20px;
+
+  }
+
+  .swap{
+     margin-left: 17rem;
+     background-image: url(/images/switch.png);
+     width: 28px;
+     height: 30px;
+     background-position: center;
+     background-size: cover;
+
+  }
+
+  .swap:active {
+    box-shadow: 0 0 10px rgb(211, 247, 10);
+    
+  }
+ 
+
+  
+  @media(max-width:700px){
+      h1{
+        font-size: 25px;
+    }
+  }
